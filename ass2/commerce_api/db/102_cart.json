@@ -1,9 +1,0 @@
-{
-    "uuid" : "102",
-    "cart" : [{
-        "productId": "123245ds4234",
-        "productName": "Sony",
-        "quantity": 1,
-        "amount": 1200
-    }]
-}

@@ -13,8 +13,13 @@ var controllers = {
         });
     },
     putcartitem : function(req,res) {
-        var name = req.body.name;
-        res.send('put request for ' + req.params.uuid + ' called\nRequest content name: ' + name + '\n');
+        var cart_item = req.body;
+        var uuid = req.params.uuid;
+        usercart.putitems(req,res,uuid,cart_item,function(err,response) {
+            if(err)
+                res.send(err);
+            res.send(response);
+        });
     },
     getcartitems : function(req,res) {
         var uuid = req.params.uuid;
