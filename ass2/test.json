@@ -1,0 +1,32 @@
+{    
+    "usercarts" : [
+        {
+            "uuid" : "101",
+            "cart" : [{
+                "productId":"12445dsd234",
+                "productName":"Samsung",
+                "productModel":"GalaxyNote",
+                "price":700,
+                "quantity":2
+            }]
+        },
+        {
+            "uuid" : "102",
+            "cart" : [{
+                "productId":"123245ds4234",
+                "productName":"Sony",
+                "productModel":"Bravia",
+                "price":1200,
+                "quantity":1
+            },
+            {
+                "productId":"123545ds434",
+                "category":"Mobile",
+                "productName":"Apple",
+                "productModel":"IPhoneX",
+                "price":1000,
+                "availableQuantity":9
+            }]
+        }
+    ]
+}

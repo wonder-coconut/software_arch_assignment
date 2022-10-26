@@ -1,0 +1,9 @@
+{
+    "uuid" : "101",
+    "cart" : [{
+        "productId": "12445dsd234", 
+        "productName": "Samsung", 
+        "quantity": 2, 
+        "amount": 1400
+    }]
+}
