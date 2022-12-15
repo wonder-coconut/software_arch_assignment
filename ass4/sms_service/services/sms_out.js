@@ -85,6 +85,14 @@ var sms_out = {
                         continue;
                     }
                 }
+                else
+                {
+                    res.status(400);
+                }
+            }
+            else
+            {
+                res.status(429);
             }
 
             FileSystem.writeFile(path.resolve(__dirname, "../db/requests.json"), JSON.stringify(requests), (err) => {
