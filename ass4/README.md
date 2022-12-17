@@ -6,10 +6,11 @@ There are two ways you can execute this application:
 ## 1. Cloud
 
 Use the following cloud url for your PUT request :
+>   https://route.srikar.tech
 
 Example :
 >   PUT /inbound/sms  
-    Host: http://route.srikar.tech/  
+    Host: https://route.srikar.tech/  
     Content-type: application/json  
     {  
         "from" : "\<from\>",  
